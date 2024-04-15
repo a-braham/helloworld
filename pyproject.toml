@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "helloworld"
+authors = [
+    {name = "Abraham Kamau", email = "kirumba.kamau@gmail.com"},
+]
+description = "A CKAN hello world extension"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = []
+license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = []
+dynamic = ["version"]
+
+[project.optional-dependencies]
+
+[project.scripts]
+
+
